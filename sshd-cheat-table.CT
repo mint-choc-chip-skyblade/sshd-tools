@@ -6,7 +6,7 @@
       <Description>"MOD"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
-      <Address>1A1A03D4000</Address>
+      <Address>0</Address>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
@@ -202,6 +202,89 @@
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
               <Address>+6380</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>324</ID>
+          <Description>"GameReloader"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>10</ByteLength>
+          <Address>+6288408</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>325</ID>
+              <Description>"Trigger Reload"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+350</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>326</ID>
+              <Description>"Speed after Reload"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+3A4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>327</ID>
+              <Description>"Stamina after Reload"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+3A8</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>328</ID>
+              <Description>"Item to use after Reload"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+3AC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>329</ID>
+              <Description>"Beedle Shop Spawn State"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+3AD</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>330</ID>
+              <Description>"Action Index"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+3AE</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>331</ID>
+              <Description>"Area Type"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+3B0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>332</ID>
+              <Description>"Is Reloading"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+3B6</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>333</ID>
+              <Description>"Prevent Set Respawn Info"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+3B7</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>334</ID>
+              <Description>"Countdown after Spawn"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+3B8</Address>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -746,7 +829,7 @@
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Array of byte</VariableType>
-                      <ByteLength>26</ByteLength>
+                      <ByteLength>16</ByteLength>
                       <Address>+160</Address>
                     </CheatEntry>
                     <CheatEntry>
@@ -1453,11 +1536,248 @@
                 <CheatEntry>
                   <ID>68</ID>
                   <Description>"Dungeonflags"</Description>
+                  <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>352</ByteLength>
                   <Address>+A64</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>293</ID>
+                      <Description>"Skyloft"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>294</ID>
+                      <Description>"Faron Woods"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+10</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>295</ID>
+                      <Description>"Lake Floria"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+20</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>296</ID>
+                      <Description>"Flooded Faron Woods"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+30</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>297</ID>
+                      <Description>"Eldin Volcano"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+40</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>298</ID>
+                      <Description>"Bokoblin Base / Volcano Summit"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+50</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>299</ID>
+                      <Description>"Unused"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+60</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>300</ID>
+                      <Description>"Lanayru Desert"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>301</ID>
+                      <Description>"Lanayru Sand Sea"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+80</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>302</ID>
+                      <Description>"Lanayru Gorge &amp; Caves"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+90</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>303</ID>
+                      <Description>"Sealed Grounds"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+A0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>304</ID>
+                      <Description>"Skyview Temple"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+B0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>305</ID>
+                      <Description>"Ancient Cistern"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+C0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>306</ID>
+                      <Description>"Unused"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+D0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>307</ID>
+                      <Description>"Earth Temple"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+E0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>308</ID>
+                      <Description>"Fire Sanctuary"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+F0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>309</ID>
+                      <Description>"Unused"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+100</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>310</ID>
+                      <Description>"Lanayru Mining Facility"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+110</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>311</ID>
+                      <Description>"Sandship"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+120</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>312</ID>
+                      <Description>"Unused"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+130</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>313</ID>
+                      <Description>"Sky Keep"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+140</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>314</ID>
+                      <Description>"The Sky"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+150</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>315</ID>
+                      <Description>"Faron Silent Realm"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+160</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>316</ID>
+                      <Description>"Eldin Silent Realm"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+170</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>317</ID>
+                      <Description>"Lanayru Silent Realm"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+180</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>318</ID>
+                      <Description>"Skyloft Silent Realm"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>16</ByteLength>
+                      <Address>+190</Address>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>72</ID>
@@ -1583,6 +1903,35 @@
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>8 Bytes</VariableType>
               <Address>+A7E0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>320</ID>
+              <Description>"Options"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+C9EC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>321</ID>
+              <Description>"Camera Speed"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+CA0C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>322</ID>
+              <Description>"Amiibo Stage Index Copy"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+C9E2</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>323</ID>
+              <Description>"Amiibo Room Number Copy"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+C9E4</Address>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -2467,6 +2816,14 @@
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
+        <CheatEntry>
+          <ID>319</ID>
+          <Description>"Dungeon Flag Mgr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>+5AF84DC</Address>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
   </CheatEntries>
@@ -2483,6 +2840,7 @@ do
  foundList.initialize()
 
  print("Base Address: ", foundList.Address[0])
+ <!-- print("Additional Base Address (don't use): ", foundList.Address[1]) -->
  baseAddress = foundList.Address[0]
 
  foundList.destroy()
