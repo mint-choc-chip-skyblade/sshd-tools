@@ -1,0 +1,2 @@
+# Don't commit stage files for object analyser
+*/stage*
