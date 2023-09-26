@@ -17,6 +17,24 @@ This cheat table includes the address offsets for the following in-game informat
 </details>
 
 <details>
+<summary>GameReloader</summary>
+<blockquote>
+
+* Trigger Reload
+* Speed after Reload
+* Stamina after Reload
+* Item to use after Reload
+* Beedle Shop Spawn State
+* Action Index
+* Area Type
+* Is Reloading
+* Prevent Set Spawn Info
+* Countdown after Spawn
+
+</blockquote>
+</details>
+
+<details>
 <summary>Stage (current and next)</summary>
 <blockquote>
 
@@ -62,6 +80,8 @@ This cheat table includes the address offsets for the following in-game informat
 * FB offset
 * Amiibo Position
 * Amiibo Stage
+* Options
+* Camera Speed
 
 </blockquote>
 </details>
