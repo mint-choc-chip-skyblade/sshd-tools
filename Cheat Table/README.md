@@ -214,14 +214,14 @@ Once you have installed and opened Cheat Engine, you will need to enable the
 
 `Edit -> Settings -> Scan Settings`
 
-![The Cheat Engine Settings menu showing the MEM_MAPPED option](https://github.com/mint-choc-chip-skyblade/sshd-cheat-table/blob/main/Cheat Table/assets/MEM_MAPPED.png?raw=true)
+![The Cheat Engine Settings menu showing the MEM_MAPPED option](https://raw.githubusercontent.com/mint-choc-chip-skyblade/sshd-cheat-table/main/Cheat%20Table/assets/MEM_MAPPED.png)
 
 Next, ensure that your emulator is running the game and open the process in
 Cheat Engine:
 
 `File -> Open Process`
 
-![The Cheat Engine Open Process menu with The Legend of Zelda: Skyward Sword HD yuzu process selected](https://github.com/mint-choc-chip-skyblade/sshd-cheat-table/blob/main/Cheat Table/assets/process-list.png?raw=true)
+![The Cheat Engine Open Process menu with The Legend of Zelda: Skyward Sword HD yuzu process selected](https://raw.githubusercontent.com/mint-choc-chip-skyblade/sshd-cheat-table/main/Cheat%20Table/assets/process-list.png)
 
 Finally, open the cheat table:
 
