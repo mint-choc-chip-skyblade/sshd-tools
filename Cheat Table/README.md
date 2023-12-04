@@ -104,6 +104,80 @@ information:
 </blockquote>
 </details>
 
+<details>
+<summary>Items and Counters</summary>
+<blockquote>
+
+  <details>
+  <summary>Counters</summary>
+  <blockquote>
+
+  * Rupee Counter
+  * Bomb Counter
+  * Arrow Counter
+  * Deku Seed Counter
+  * Crystal Counter
+
+  </blockquote>
+  </details>
+
+  <details>
+  <summary>B-Wheel Items</summary>
+  <blockquote>
+
+  * Bow
+  * Iron Bow
+  * Sacred Bow
+  * Bomb Bag
+  * Beetle
+  * Hook Beetle
+  * Quick Beetle
+  * Tough Beetle
+  * Slingshot
+  * Scattershot
+  * Clawshots
+  * Whip
+  * Gust Bellows
+
+  </blockquote>
+  </details>
+
+  <details>
+  <summary>Inventory Items</summary>
+  <blockquote>
+
+  * Sailcloth
+  * Water Dragon's Scale
+  * Fireshield Earrings
+  * Digging Mitts
+  * Mogma Mitts
+  * Goddess's Harp
+  * Medium Wallet
+  * Big Wallet
+  * Giant Wallet
+  * Tycoon Wallet
+  * Adventure Pouch
+
+  </blockquote>
+  </details>
+
+  <details>
+  <summary>Swords (requires reload)</summary>
+  <blockquote>
+
+  * Practice Sword
+  * Goddess Sword
+  * Goddess Longsword
+  * Goddess White Sword
+  * Master Sword
+  * True Master Sword
+
+  </blockquote>
+  </details>
+
+</blockquote>
+</details>
+
 ## Important Notes
 
 This cheat table works in a similar way to Dolphin's watchlists. If you are
