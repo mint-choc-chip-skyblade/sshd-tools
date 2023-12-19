@@ -117,6 +117,7 @@ information:
   * Arrow Counter
   * Deku Seed Counter
   * Crystal Counter
+  * ET Key Piece Counter
 
   </blockquote>
   </details>

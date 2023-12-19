@@ -6,7 +6,7 @@
       <Description>"MOD"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
-      <Address>2C14AFB4000</Address>
+      <Address>23FF0C64000</Address>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
@@ -2927,6 +2927,26 @@
                   <BitLength>7</BitLength>
                   <ShowAsBinary>0</ShowAsBinary>
                   <Address>+182E170+60+C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>416</ID>
+                  <Description>"ET Key Piece Counter (committed)"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>3</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>+5AEAD44+10+9E4+70+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>417</ID>
+                  <Description>"ET Key Piece Counter (uncommited)"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>3</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>+182E170+70+8</Address>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
