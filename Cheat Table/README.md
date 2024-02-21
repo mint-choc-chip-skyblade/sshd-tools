@@ -11,6 +11,7 @@ information:
 * Stamina
 * Position
 * Angle
+* Forward Speed
 * Velocity
 * Several misc attributes
 
@@ -175,6 +176,26 @@ information:
 
   </blockquote>
   </details>
+
+</blockquote>
+</details>
+
+<details>
+<summary>Actor Globals</summary>
+<blockquote>
+
+* dBase::param1
+* dAcBase::param2
+* dBase::actorid
+* dBase::groupType
+* dAcBase::subtype
+* dAcOBase::infoPtr
+* ACTOR_PARAM_POS_PTR
+* ACTOR_PARAM_ROT_PTR
+* ACTOR_PARAM_SCALE_PTR
+* ACTOR_SPAWN_WITH_REF
+* ACTOR_STAGE_OBJECT_FLAG
+* ACTOR_VIEW_CLIP_INDEX
 
 </blockquote>
 </details>
