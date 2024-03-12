@@ -200,6 +200,10 @@ information:
 </blockquote>
 </details>
 
+  <details>
+  <summary>InputMgr</summary>
+  </details>
+
 ## Important Notes
 
 This cheat table works in a similar way to Dolphin's watchlists. If you are

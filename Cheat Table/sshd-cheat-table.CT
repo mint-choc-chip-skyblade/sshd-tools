@@ -6,7 +6,7 @@
       <Description>"MOD"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
-      <Address>2A6BC554000</Address>
+      <Address>19CCC094000</Address>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
@@ -3724,6 +3724,14 @@
               <Address>+16894c0-4000</Address>
             </CheatEntry>
           </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>433</ID>
+          <Description>"InputMgr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>8 Bytes</VariableType>
+          <Address>+5782E30-4000</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
