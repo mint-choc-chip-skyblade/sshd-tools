@@ -208,6 +208,52 @@ information:
 <summary>RESPAWN_TYPE</summary>
 </details>
 
+<details>
+<summary>dAcOBase</summary>
+<blockquote>
+
+  <details>
+  <summary>dAcBase</summary>
+  <blockquote>
+
+  * dBase
+    * UniqueActorIndex
+    * Param1
+    * ActorId
+
+  * PosCopy
+  * Param2
+  * RotCopy
+  * ObjectId
+  * RoomIdCopy
+  * ViewClipIndex
+  * Subtype
+  * Angle
+  * Position
+  * Scale
+  * ActorProperties
+  * RoomId
+
+  </blockquote>
+  </details>
+
+* Y Offset
+* PosCopy1
+* PosCopy2
+* PosCopy3
+* RotCopy
+* Forward Speed
+* Gravity Accel
+* Gravity
+* Velocity
+* CullingDistance
+* ObjectActorFlags
+* StartingPos
+* StartingRot
+
+</blockquote>
+</details>
+
 ## Important Notes
 
 This cheat table works in a similar way to Dolphin's watchlists. If you are
