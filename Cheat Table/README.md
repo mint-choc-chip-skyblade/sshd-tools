@@ -200,9 +200,13 @@ information:
 </blockquote>
 </details>
 
-  <details>
-  <summary>InputMgr</summary>
-  </details>
+<details>
+<summary>InputMgr</summary>
+</details>
+
+<details>
+<summary>RESPAWN_TYPE</summary>
+</details>
 
 ## Important Notes
 

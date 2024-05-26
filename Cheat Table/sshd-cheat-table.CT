@@ -4,9 +4,10 @@
     <CheatEntry>
       <ID>0</ID>
       <Description>"MOD"</Description>
+      <Options moManualExpandCollapse="1"/>
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
-      <Address>19CCC094000</Address>
+      <Address>00000000</Address>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
@@ -149,31 +150,45 @@
             </CheatEntry>
             <CheatEntry>
               <ID>2</ID>
-              <Description>"Pos x"</Description>
+              <Description>"Pos X"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+144</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>3</ID>
-              <Description>"Pos y"</Description>
+              <Description>"Pos Y"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+148</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>4</ID>
-              <Description>"Pos z"</Description>
+              <Description>"Pos Z"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+14c</Address>
             </CheatEntry>
             <CheatEntry>
-              <ID>5</ID>
-              <Description>"Angle"</Description>
+              <ID>435</ID>
+              <Description>"Angle x"</Description>
               <ShowAsSigned>1</ShowAsSigned>
-              <VariableType>Float</VariableType>
+              <VariableType>2 Bytes</VariableType>
               <Address>+13c</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>437</ID>
+              <Description>"Angle y"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+13e</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>436</ID>
+              <Description>"Angle z"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+140</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>418</ID>
@@ -184,21 +199,21 @@
             </CheatEntry>
             <CheatEntry>
               <ID>7</ID>
-              <Description>"Velocity x"</Description>
+              <Description>"Velocity X"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+1e8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>6</ID>
-              <Description>"Velocity y"</Description>
+              <Description>"Velocity Y"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+1ec</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>8</ID>
-              <Description>"Velocity z"</Description>
+              <Description>"Velocity Z"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+1f0</Address>
@@ -1873,21 +1888,21 @@
             </CheatEntry>
             <CheatEntry>
               <ID>84</ID>
-              <Description>"Amiibo Pos x"</Description>
+              <Description>"Amiibo Pos X"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+A7B4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>85</ID>
-              <Description>"Amiibo Pos y"</Description>
+              <Description>"Amiibo Pos Y"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+A7B8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>86</ID>
-              <Description>"Amiibo Pos z"</Description>
+              <Description>"Amiibo Pos Z"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>+A7BC</Address>
@@ -3732,6 +3747,14 @@
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>8 Bytes</VariableType>
           <Address>+5782E30-4000</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>434</ID>
+          <Description>"RESPAWN_TYPE"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>+2bf9960</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
