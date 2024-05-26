@@ -3794,7 +3794,7 @@
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>+0</Address>
+                  <Address>+8</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>442</ID>
@@ -3802,7 +3802,7 @@
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>+4</Address>
+                  <Address>+c</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>443</ID>
@@ -3810,7 +3810,7 @@
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>2 Bytes</VariableType>
-                  <Address>+8</Address>
+                  <Address>+10</Address>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
