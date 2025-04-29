@@ -69,6 +69,7 @@ information:
   * Zoneflags
   * Itemflags
   * Dungeonflags
+  * Tboxflags
   * Enemy Kill Counters
   * Hit by Enemy Counters
   * Skykeep Puzzle
@@ -206,6 +207,14 @@ information:
 
 <details>
 <summary>RESPAWN_TYPE</summary>
+</details>
+
+<details>
+<summary>ITEM_GET_POUCH_SLOT</summary>
+</details>
+
+<details>
+<summary>s_rng</summary>
 </details>
 
 <details>
